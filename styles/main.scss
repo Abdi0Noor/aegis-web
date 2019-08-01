@@ -1,0 +1,25 @@
+@import './shared/_fonts';
+@import './shared/_buttons';
+@import './_navbar';
+
+@import './hero';
+
+
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 3000px;
+    width: 100%;
+    padding-left: .1%;
+    padding-right: .1%;
+    
+  }
+
+.indexWrapper{
+  display: grid;
+  grid-template-rows: minmax(auto,auto);
+}
+
+div {
+ 
+}
